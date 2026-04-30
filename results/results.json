@@ -1,0 +1,30 @@
+{
+    "resnet50_frozen": {
+        "description": "ResNet50 \u2014 Pretrained, FC only (backbone frozen)",
+        "best_val_acc": 0.7243401759530792,
+        "test_acc": 0.7096774193548387,
+        "test_precision": 0.7277298391392351,
+        "test_recall": 0.7217247890066683
+    },
+    "resnet50_finetune": {
+        "description": "ResNet50 \u2014 Pretrained, Full fine-tuning",
+        "best_val_acc": 0.9618768328445748,
+        "test_acc": 0.9589442815249267,
+        "test_precision": 0.9553105358474486,
+        "test_recall": 0.952127458671083
+    },
+    "vgg16_frozen": {
+        "description": "VGG16 \u2014 Pretrained, FC only (backbone frozen)",
+        "best_val_acc": 0.7609970674486803,
+        "test_acc": 0.7609970674486803,
+        "test_precision": 0.7491036927278537,
+        "test_recall": 0.755202832216255
+    },
+    "convnext_finetune": {
+        "description": "ConvNeXt-Tiny \u2014 Pretrained, Full fine-tuning",
+        "best_val_acc": 0.967741935483871,
+        "test_acc": 0.966275659824047,
+        "test_precision": 0.9642111430702035,
+        "test_recall": 0.9597685871175805
+    }
+}
